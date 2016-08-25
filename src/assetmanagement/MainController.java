@@ -38,13 +38,37 @@ public class MainController implements Initializable {
                 loader.load();
                 Parent p=loader.getRoot();
                 
-                Stage Loginstage=new Stage();
+                Stage stage=new Stage();
                 Scene scene=new Scene(p);
-                Loginstage.setScene(scene);
-                Loginstage.show();
+                stage.setScene(scene);
+                stage.show();
                 
                 Stage stagelogin = (Stage) btnLogin.getScene().getWindow();
                 stagelogin.close();
+    }
+    @FXML
+    private void OpenAdd(ActionEvent event) throws IOException{
+        FXMLLoader loader=new FXMLLoader();
+                loader.setLocation(getClass().getResource("Asset_add.fxml"));
+                loader.load();
+                Parent p=loader.getRoot();
+                
+                Stage stage=new Stage();
+                Scene scene=new Scene(p);
+                stage.setScene(scene);
+                stage.show();
+    }
+    @FXML 
+    private void OpenDetials(ActionEvent event) throws IOException{
+        FXMLLoader loader=new FXMLLoader();
+                loader.setLocation(getClass().getResource("Asset_Details.fxml"));
+                loader.load();
+                Parent p=loader.getRoot();
+                
+                Stage stage=new Stage();
+                Scene scene=new Scene(p);
+                stage.setScene(scene);
+                stage.show();
     }
     
     @Override

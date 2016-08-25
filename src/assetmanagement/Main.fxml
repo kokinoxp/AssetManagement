@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="assetmanagement.MainController">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assetmanagement.MainController">
     <children>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <MenuBar prefHeight="29.0" prefWidth="600.0">
@@ -29,7 +29,7 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="153.0" layoutY="184.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="158.0" text="เพิ่ม/แก้ไข/ลบ" />
+      <Button layoutX="153.0" layoutY="184.0" mnemonicParsing="false" onAction="#OpenAdd" prefHeight="80.0" prefWidth="158.0" text="เพิ่ม/แก้ไข/ลบ" />
       <Button layoutX="311.0" layoutY="184.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="158.0" text="ค้นหา" />
       <Button layoutX="312.0" layoutY="264.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="158.0" text="ปิดโปรแกรม" />
       <Button layoutX="154.0" layoutY="264.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="158.0" text="ข้อมูลพื้นฐาน" />
