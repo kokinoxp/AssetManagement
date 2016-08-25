@@ -5,8 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assetmanagement.MainController">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="1.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #8DDAF7;" text="ทะเบียนคุมทรัพย์สิน" textFill="#0015ff">
          <font>
@@ -33,7 +32,7 @@
             <Font name="Cordia New" size="22.0" />
          </font>
       </Label>
-      <Button layoutX="200.0" layoutY="256.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" text="เข้าสู่ระบบ">
+      <Button fx:id="btnLogin" layoutX="200.0" layoutY="256.0" mnemonicParsing="false" onAction="#LoginSuccess" prefHeight="47.0" prefWidth="130.0" text="เข้าสู่ระบบ">
          <font>
             <Font name="Cordia New" size="22.0" />
          </font>
