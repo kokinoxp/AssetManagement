@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="1.0" prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #8DDAF7;" text="ทะเบียนคุมทรัพย์สิน" textFill="#0015ff">
+         <font>
+            <Font name="Cordia New" size="40.0" />
+         </font>
+      </Label>
+      <TextField layoutX="200.0" layoutY="140.0" prefHeight="47.0" prefWidth="258.0">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="200.0" layoutY="196.0" prefHeight="47.0" prefWidth="258.0">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="125.0" layoutY="148.0" prefHeight="17.0" prefWidth="66.0" text="รหัสผู้ใช้ :">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="204.0" text="รหัสผ่าน :">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="200.0" layoutY="256.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" text="เข้าสู่ระบบ">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="329.0" layoutY="256.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="130.0" text="ปิดโปรแกรม">
+         <font>
+            <Font name="Cordia New" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

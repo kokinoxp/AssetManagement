@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="29.0" prefWidth="1024.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="แฟ้ม">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="ข้อมูลพื้นฐาน" />
+                  <MenuItem mnemonicParsing="false" text="ปิดโปรแกรม" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="แก้ไข">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="เพิ่ม/แก้ไข/ลบ" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="ช่วยเหลือ">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="เกี่ยวกับโปรแกรม" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label layoutX="33.0" layoutY="134.0" text="ประเภท" />
+      <Label layoutX="300.0" layoutY="134.0" text="รหัส" />
+      <Label layoutX="445.0" layoutY="134.0" text="ลักษณะ/คุณสมบัติ" />
+      <Label layoutX="31.0" layoutY="56.0" text="ส่วนราชการ" />
+      <Label layoutX="33.0" layoutY="95.0" text="หน่วยงาน" />
+      <Label layoutX="738.0" layoutY="134.0" text="รุ่น/แบบ" />
+      <Label layoutX="34.0" layoutY="172.0" text="สถานที่ตั้ง/หน่วยงานที่รับผิดชอบ" />
+      <Label layoutX="406.0" layoutY="172.0" text="ชื่อผู้ขาย/ผู้รับจ้าง/ผู้บริจาค" />
+      <Label layoutX="34.0" layoutY="212.0" text="ที่อยู่" />
+      <Label layoutX="500.0" layoutY="212.0" text="โทรศัพท์" />
+      <ComboBox layoutX="129.0" layoutY="251.0" prefWidth="150.0" />
+      <Label layoutX="34.0" layoutY="256.0" text="ประเภทเงิน" />
+      <Label layoutX="33.0" layoutY="302.0" text="วิธีการได้มา" />
+      <TextField layoutX="364.0" layoutY="251.0" />
+      <CheckBox layoutX="302.0" layoutY="256.0" mnemonicParsing="false" text="อื่นๆ" />
+      <ComboBox layoutX="129.0" layoutY="297.0" prefWidth="150.0" />
+      <ScrollPane layoutX="11.0" layoutY="411.0" prefHeight="389.0" prefWidth="1003.0">
+         <content>
+            <TableView prefHeight="402.0" prefWidth="1283.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="วัน เดือน ปี" />
+                  <TableColumn prefWidth="75.0" text="ที่เอกสาร" />
+                  <TableColumn prefWidth="168.0" text="รายการ" />
+                  <TableColumn minWidth="0.0" prefWidth="110.0" text="จำนวนหน่วย" />
+                  <TableColumn prefWidth="131.0" text="ราคาต่อหน่วย/ชุด/กลุ่ม" />
+                  <TableColumn minWidth="0.0" prefWidth="64.0" text="มูลค่ารวม" />
+                  <TableColumn minWidth="0.0" prefWidth="89.0" text="อายุการใช้งาน" />
+                  <TableColumn minWidth="0.0" prefWidth="113.0" text="อัตราค่าเสื่อมราคา" />
+                  <TableColumn minWidth="0.0" prefWidth="135.0" text="ค่าเสื่อมราคาประจำปี" />
+                  <TableColumn minWidth="0.0" prefWidth="114.0" text="ค่าเสื่อมราคาสะสม" />
+                  <TableColumn minWidth="0.0" prefWidth="83.0" text="มูลค่าสุทธิ" />
+                  <TableColumn prefWidth="99.0" text="หมายเหตุ" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Button layoutX="15.0" layoutY="365.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="97.0" text="เพิ่มรายการ" />
+      <TextField layoutX="124.0" layoutY="51.0" />
+      <TextField layoutX="124.0" layoutY="90.0" />
+      <TextField layoutX="124.0" layoutY="129.0" />
+      <TextField layoutX="330.0" layoutY="129.0" prefHeight="27.0" prefWidth="103.0" />
+      <TextField layoutX="560.0" layoutY="129.0" prefHeight="27.0" prefWidth="167.0" />
+      <TextField layoutX="791.0" layoutY="129.0" />
+      <TextField layoutX="220.0" layoutY="167.0" />
+      <TextField layoutX="560.0" layoutY="167.0" />
+      <TextField layoutX="127.0" layoutY="207.0" prefHeight="27.0" prefWidth="327.0" />
+      <TextField layoutX="560.0" layoutY="207.0" prefHeight="27.0" prefWidth="167.0" />
+   </children>
+</AnchorPane>
